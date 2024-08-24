@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/app.js" defer></script>
+    <title>Simon v2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-div">
+            <label for="nbface">nombre de faces des dés ?</label>
+            <input class="input" type="number" name="nbface"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="nbde">nombre de dé ?</label>
+            <input class="input" type="number" name="nbde"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="nblance">nombre de lancés ?</label>
+            <input class="input" type="number" name="nblance"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resok">combien de dé acceptable doivent être présent pour gagner ?</label>
+            <input class="input" type="number" name="resok"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept1">résultat acceptable du dé ?</label>
+            <input class="input" type="number" name="resaccept1"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept2">autre résultat acceptable du dé ? sinon insérer 0</label>
+            <input class="input" type="number" name="resaccept2"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept3">autre résultat acceptable du dé ? sinon insérer 0</label>
+            <input class="input" type="number" name="resaccept3"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept4">autre résultat acceptable du dé ? sinon insérer 0</label>
+            <input class="input" type="number" name="resaccept4"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept5">autre résultat acceptable du dé ? sinon insérer 0</label>
+            <input class="input" type="number" name="resaccept5"/>
+        </div>
+        
+        <div class="input-div">
+            <label for="resaccept6">autre résultat acceptable du dé ? sinon insérer 0</label>
+            <input class="input" type="number" name="resaccept6"/>
+        </div>
+    
+        <button class="button" type="button" onclick="app.calcul()">lancer le test</button>
+    
+        <div id="resultat"></div>
+    </div>
+</body>
+</html>

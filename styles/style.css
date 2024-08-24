@@ -1,0 +1,51 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    padding-inline: 30vw;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    min-height: 20px;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    min-height: 24px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#resultat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid black;
+}
